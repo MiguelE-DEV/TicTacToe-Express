@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>TIC TAC TOE</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<section id="bigSection">
+		<header><H1>TIC TAC TOE</H1></header>
+		<main>
+			<section id="grid">
+				<section id="one" class="block"></section>
+				<section id="two" class="block"></section>
+				<section id="three" class="block"></section>
+				<section id="four" class="block"></section>
+				<section id="five" class="block"></section>
+				<section id="six" class="block"></section>
+				<section id="seven" class="block"></section>
+				<section id="eight" class="block"></section>
+				<section id="nine" class="block"></section>
+			</section>
+		</main>
+		<footer id="bottom">
+			<p id="result"></p>
+			<h2>Wins:<span class="wins"><%= user.local.win %></span></h2>
+			<h2>Loss:<span class="loss"><%= user.local.loss %></span></h2>
+		</footer>
+	</section>
+		<script src="https://kit.fontawesome.com/40942b8d38.js" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
