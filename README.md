@@ -1,6 +1,6 @@
 ## Description
 An app where a user can log in and play TicTacToe against a bot. The wins and losses are saved for each user
-![image](https://user-images.githubusercontent.com/112410929/201451977-19f4fbe8-ecb7-45bf-ad51-4ce6409bc9a5.png)
+![image](https://user-images.githubusercontent.com/112410929/201452006-0189c773-842c-4a7d-9d89-43939891f052.png)
 
 ## Installation
 
